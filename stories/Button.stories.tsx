@@ -2,6 +2,7 @@
 
 import type { Meta, StoryObj } from '@storybook/react';
 import { ButtonMat } from '../src/ButtonMat';
+import { withDesign } from 'storybook-addon-designs';
 
 const meta: Meta<typeof ButtonMat> = {
   /* 👇 The title prop is optional.
@@ -10,6 +11,7 @@ const meta: Meta<typeof ButtonMat> = {
    */
   title: 'ButtonMat',
   component: ButtonMat,
+  decorators: [withDesign],
   argTypes:{
     color:{
         control: {
@@ -75,6 +77,12 @@ export const ExpressOutlinedButton: Story = {
     text: 'ExpresSoft',
     color:'black',
     variant:'outlined'
+  },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/c18iVq7LWMNDFTWLl81pad/Untitled?node-id=6-2&t=HhREAEiJvBRFw3Zf-0',
+    },
   },
 };
 
