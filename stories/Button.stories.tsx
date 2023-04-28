@@ -81,7 +81,7 @@ export const ExpressOutlinedButton: Story = {
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/c18iVq7LWMNDFTWLl81pad/Untitled?node-id=6-2&t=HhREAEiJvBRFw3Zf-0',
+      url: 'https://www.figma.com/file/nvmBEQ7sz8jRFVzNMnJoaf/Untitled?node-id=1-4&t=FTHnwiq2qYOXGhg5-4',
     },
   },
 };
