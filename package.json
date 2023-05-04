@@ -63,11 +63,13 @@
     "@storybook/addons": "^7.0.3",
     "@storybook/react": "^7.0.3",
     "@storybook/react-webpack5": "^7.0.3",
+    "@types/node-sass": "^4.11.3",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "babel-loader": "^9.1.2",
     "chromatic": "^6.17.3",
     "husky": "^8.0.3",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
@@ -76,12 +78,14 @@
     "storybook-addon-designs": "^7.0.0-beta.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.5.0",
+    "typed-scss-modules": "^7.1.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.12.0",
+    "sass-loader": "^13.2.2",
     "storybook-anima": "^1.43.0",
     "storybook-figma": "^0.1.2"
   }
